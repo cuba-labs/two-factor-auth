@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        class="com.company.demo.web.login.ExtAppLoginWindow"
+        extends="/com/haulmont/cuba/web/app/loginwindow/loginwindow.xml"
+        messagesPack="com.company.demo.web.login"
+        xmlns:ext="http://schemas.haulmont.com/cuba/window-ext.xsd">
+    <layout>
+        <vbox id="loginWrapper">
+            <vbox id="loginMainBox">
+                <grid id="loginFormLayout">
+                    <rows>
+                        <row ext:index="2">
+                            <label value="Auth key"/>
+                            <textField id="authKeyBox"/>
+                        </row>
+                    </rows>
+                </grid>
+            </vbox>
+        </vbox>
+    </layout>
+</window>

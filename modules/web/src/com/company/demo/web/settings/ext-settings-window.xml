@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        class="com.company.demo.web.settings.ExtSettingsWindow"
+        extends="/com/haulmont/cuba/web/app/ui/core/settings/settings-window.xml"
+        messagesPack="com.company.demo.web.settings">
+    <layout>
+        <groupBox>
+            <grid>
+                <rows>
+                    <row>
+                        <label value="Two factor auth"/>
+                        <vbox id="totpOptionsBox"
+                              spacing="true">
+                            <button id="totpEnableBtn" caption="Enable/Regenerate" invoke="enableTotpAuth"/>
+                        </vbox>
+                    </row>
+                </rows>
+            </grid>
+        </groupBox>
+    </layout>
+</window>
