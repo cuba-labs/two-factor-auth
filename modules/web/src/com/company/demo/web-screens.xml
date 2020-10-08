@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
-    <include file="com/company/demo/screens.xml"/>
+
     <screen id="settings"
             template="com/company/demo/web/settings/ext-settings-window.xml"/>
-    <screen id="loginWindow"
-            template="com/company/demo/web/login/ext-loginwindow.xml"/>
+
 </screen-config>
